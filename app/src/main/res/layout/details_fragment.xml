@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:weightSum="100">
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="70"
+            android:id="@+id/image"
+            android:scaleType="centerCrop"
+            android:src="@drawable/jot"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_description"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="There are numerous tutorials on using firebase auth with flutter. I went through many of these to work through making my own take on a Firebase Auth flutter project that worked
+            the way I needed it to. Definitely check out these projects which provide much more in depth tutorials."
+            android:textSize="20sp"
+            android:textColor="#000"
+    />
+
+</LinearLayout>
